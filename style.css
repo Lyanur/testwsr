@@ -1,0 +1,194 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .header  {
+    border: 1px solid black;
+}
+.content{
+    border: 1px solid black;
+}
+.footer{
+    border: 1px solid black;
+} */
+nav > a {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#plus {
+    font-size: 20px;
+    text-align: justify;
+}
+.rolff{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+   }
+
+.imgcaling{
+    width: 50%;
+    padding: 5%;
+}
+.imgcalinglogo{
+    width: 100%;
+}
+/* 
+*{
+    border: 1px solid red;
+} */
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: #00b102;
+    font-size: large; 
+}
+
+.footernav>a{
+    margin-right: 5px;
+    padding-right: 5px;
+    border: #008cc9 solid 2px;
+    background-color: #fff;
+}
+
+hr{
+    height: 5px;
+    size: 50px;
+    color: brown;
+}
+
+.header{
+    background-color: #00b102;
+    /* position: fixed; */
+}
+
+body{
+    background-color: #E1E2E1;
+}
+
+.Trust1{
+    background-color: #fff;
+}
+.Trust2{
+    background-color: #fff;
+}
+
+.searchh2{
+    background-color: #008cc9;
+    text-align: center;
+}
+.footernav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.flexpromo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.promobc{
+    background-color: #fff;
+    padding: 5%;
+    font-size: large;
+}
+
+.closepromebc{
+    background-color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tell{
+    border: #008cc9 solid 2px;
+    background-color: #fff;
+}
+
+nav>a{
+    /* margin-right: 5px; */
+    border: #008cc9 solid 2px;
+    background-color: #fff;
+    white-space: nowrap
+}
+
+
+a, p, h1, h2, h3, span{
+    font-size: xx-large;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+
+.flexbron{
+    display: flex;
+    flex-direction: column;
+}
+.flexbronrow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbronlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userflexbronrow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+
+
+.flexheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+   }
+
+.footer{
+    margin-top:100px;
+}
+
+.registerflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.registerbatton{
+    border: #008cc9 solid 2px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
